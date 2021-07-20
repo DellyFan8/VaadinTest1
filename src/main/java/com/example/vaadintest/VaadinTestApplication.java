@@ -1,5 +1,6 @@
 package com.example.vaadintest;
 
+import com.vaadin.flow.component.button.Button;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +14,7 @@ public class VaadinTestApplication {
         SpringApplication.run(VaadinTestApplication.class, args);
     }
 
+    Button button = new Button("Vaadin button");
     @GetMapping(path = "/penis")
     public String test(){
         return "69";
