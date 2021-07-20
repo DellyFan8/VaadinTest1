@@ -1,4 +1,4 @@
-package com.example.vaadintest;
+package com.example.vaadintest.ui;
 
 import com.vaadin.flow.component.login.LoginForm;
 import com.vaadin.flow.component.orderedlayout.FlexComponent;

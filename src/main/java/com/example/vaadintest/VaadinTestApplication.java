@@ -15,13 +15,13 @@ public class VaadinTestApplication {
     }
 
     Button button = new Button("Vaadin button");
-    @GetMapping(path = "/penis")
+    @GetMapping(path = "/good")
     public String test(){
-        return "69";
+        return "tested";
     }
-    @GetMapping(path = "/69")
+    @GetMapping(path = "/100")
     public String test1(){
-        return "nice!";
+        return "ok";
     }
 
 }
