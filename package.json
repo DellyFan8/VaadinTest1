@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@google-web-components/google-youtube": "^3.0.1",
     "@polymer/iron-icon": "3.0.1",
     "@polymer/iron-list": "3.1.0",
     "@polymer/polymer": "3.2.0",
@@ -120,6 +121,6 @@
       "webpack-dev-server": "3.11.0",
       "webpack-merge": "4.2.2"
     },
-    "hash": "45514eaeb421e85a8581b88a2023f5d6bf06ca327e3a55938648a68c948b3c67"
+    "hash": "e24dab119fa4153283dc9e0205f61b166a0619aa0f7a4914107d6467b3bb134f"
   }
 }

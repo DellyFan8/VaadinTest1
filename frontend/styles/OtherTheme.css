@@ -1,0 +1,49 @@
+html {
+    --lumo-font-size: 1rem;
+    --lumo-font-size-xxxl: 3rem;
+    --lumo-font-size-xxl: 2.25rem;
+    --lumo-font-size-xl: 1.75rem;
+    --lumo-font-size-l: 1.375rem;
+    --lumo-font-size-m: 1.125rem;
+    --lumo-font-size-s: 1rem;
+    --lumo-font-size-xs: 0.875rem;
+    --lumo-font-size-xxs: 0.8125rem;
+    --lumo-tint-5pct: rgba(70, 195, 185, 0.05);
+    --lumo-tint-10pct: rgba(70, 195, 185, 0.1);
+    --lumo-tint-20pct: rgba(70, 195, 185, 0.2);
+    --lumo-tint-30pct: rgba(70, 195, 185, 0.3);
+    --lumo-tint-40pct: rgba(70, 195, 185, 0.4);
+    --lumo-tint-50pct: rgba(70, 195, 185, 0.5);
+    --lumo-tint-60pct: rgba(70, 195, 185, 0.6);
+    --lumo-tint-70pct: rgba(70, 195, 185, 0.7);
+    --lumo-tint-80pct: rgba(70, 195, 185, 0.8);
+    --lumo-tint-90pct: rgba(70, 195, 185, 0.9);
+    --lumo-tint: #46c3b9ff;
+    --lumo-base-color: #503399;
+    --lumo-primary-text-color: 46c3b9ff;
+    --lumo-primary-color-50pct: rgba(70, 195, 185, 0.5);
+    --lumo-primary-color-10pct: rgba(70, 195, 185, 0.1);
+    --lumo-primary-color: #46c3b9ff;
+    --lumo-header-text-color: hsl(214, 94%, 97%);
+    --lumo-body-text-color: hsla(214, 32%, 97%, 0.94);
+    --lumo-secondary-text-color: hsla(216, 48%, 95%, 1);
+    --lumo-disabled-text-color: hsla(214, 100%, 100%, 0.26);
+    --lumo-tertiary-text-color: hsla(214, 0%, 98%, 0.5);
+    --lumo-shade-90pct: #d7dbdff0;
+    --lumo-shade-80pct: #19293cd4;
+    --lumo-shade-70pct: #1a2b40b8;
+    --lumo-shade-10pct: hsla(214, 100%, 100%, 0.1);
+    --lumo-shade-5pct: hsla(214, 84%, 47%, 0.05);
+    --lumo-shade-20pct: hsla(214, 0%, 99%, 0.16);
+    --lumo-shade-30pct: hsla(214, 100%, 99%, 0.26);
+    --lumo-shade-40pct: hsla(214, 33%, 36%, 0.38);
+}
+
+[theme~="light"] {
+}
+
+{background-image:linear-gradient(var(--lumo-tint-5pct), var(--lumo-shade-5pct));box-shadow:inset 0 0 0 1px var(--lumo-contrast-20pct);}
+
+{color:var(--lumo-body-text-color);}
+
+{text-shadow:0 -1px 0 var(--lumo-shade-20pct);}
